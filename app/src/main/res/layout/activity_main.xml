@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vertical"
+        android:textSize="20sp"
+        android:id="@+id/vertical_button"
+        android:layout_margin="5dp"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/horizontal"
+        android:id="@+id/horizontal_button"
+        android:layout_margin="5dp"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grid"
+        android:textSize="20sp"
+        android:id="@+id/grid_button"
+        android:layout_margin="5dp"
+        />
+
+
+    <!--<com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/horizontal"
+        android:id="@+id/horizontal_button"
+        android:layout_margin="5dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grid"
+        android:layout_margin="5dp"
+        android:id="@+id/grid_button"
+        />-->
+
+</LinearLayout>
